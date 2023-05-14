@@ -1,0 +1,24 @@
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+body {
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    height: 3000px;
+    background-color: rgb(249, 249, 249);
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width:1200.1px) {
+    body {
+        padding-left: 240px;
+        padding-top: 90px;
+        transition: 0.15s;
+    }
+}
